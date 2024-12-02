@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+body{
+background-color: #280233;
+}
+
+.bojackLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+nav{
+    position: sticky;
+    top: 0%;
+    background-color: #563e68;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    text-indent: 20px;
+}
+.navtext {
+    position: sticky;
+    position:center;
+    text-decoration: none;
+    color: rgb(249, 206, 31);
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px;
+    margin: 78px;
+}
+
+
+.navbar {
+    position: sticky;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+div{
+    background-color: #280233;
+    width:100%;
+
+}
+
+.bojackFaceLogo{
+    border-radius: 10px;
+    width: 62px;
+    height: 62px;
+}
+
+.AboutHeading{
+    text-decoration: underline;
+    text-decoration-color:#563e68;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.Aboutp1{
+    font-family: 'Patrick Hand SC';
+    font-size: 18px;
+    position: absolute;
+    width: 540px; 
+    border: 1.5px solid #000000;
+    word-break: keep-all;
+    background-color: rgb(33, 1, 42);
+    color: rgb(249, 206, 31);
+    left: 0;
+    top: 300px;
+    
+    
+}
+
+.Aboutp2{
+    font-family: 'Patrick Hand SC';
+    font-size: 17px;
+    position: absolute;
+    width: 540px; 
+    border: 1.5px solid #000000;
+    word-break: keep-all;
+    background-color: rgb(33, 1, 42);
+    color: rgb(249, 206, 31);
+    right: 0;
+    top: 300px;
+}
+
+.bojackAboutPageImage{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 2px #000000;
+    
+}
+
+
+.section-divider {
+    border: none;
+    height: 5px; 
+    background-color:#563e68; 
+    margin: 20px 0; 
+}
+
+
+.Premise{
+    font-family: 'Patrick Hand SC', cursive;
+    color:white;
+    text-decoration-line: overline underline;
+     text-decoration-color:#563e68; 
+     font-size: 35px;
+}
+
+.premisewriting{
+    font-family: 'Patrick Hand SC';
+    font-size: 18px;
+    width: 540px; 
+    border: 1.5px solid #000000;
+    word-break: keep-all;
+    background-color: rgb(33, 1, 42);
+    color: rgb(249, 206, 31);
+    flex: 1 1 50%; 
+}
+
+.bojacktrailer {
+    flex: 0 0 auto; /* Prevent video from growing */
+    max-width: 50%; /* Adjust the width of the video */
+    height: auto;
+    margin-left: auto; /* Pushes the video to the right */
+    margin-top: 10px; /* Add spacing from the text content */
+}
+
+.bojackquotes {
+    font-family: 'Patrick Hand SC', cursive;
+    color: white;
+    text-decoration: overline underline;
+    text-decoration-color:#563e68 ;
+    font-size: 35px;
+
+}
+
+.quoteslist{
+    font-family: 'Patrick Hand SC';
+    font-size: 18px;
+    width: 600px; 
+    border: 1.5px solid #000000;
+    word-break: keep-all;
+    background-color: rgb(33, 1, 42);
+    color: rgb(249, 206, 31);
+}
