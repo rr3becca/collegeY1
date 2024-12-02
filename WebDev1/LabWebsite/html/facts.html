@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+<style>
+    body{
+            background-color:rgba(71,153,203,255);
+    }
+    header {
+        background-image: url('../images/white-header.jpg');
+        background-size: cover;
+        background-position: center;
+        color: rgb(8, 0, 255);
+        text-align: center;
+        padding: 100px 0;
+    }
+</style>
+</head>
+<body>
+    <script src="../javascript/script.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="facts.html">Facts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quiz-movies.html">Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quiz-tv.html">TV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                  </li>
+              </ul>
+          </nav>
+        <h1> Fun Facts!</h1> <!--Creating a button-->
+        <h2 id="message"> Are you ready to learn fun facts? Click the button to become ready!!</h2>
+        <button class="ready" id="ready" onclick="getReady()">Ready up!</button>
+    </header>
+    <h2>Quick-fire facts:</h2>
+    <ul>
+        <li>The write of that 70s show gets 70 bucks when it airs</li>
+        <li>The "Blue Sky" in Breaking Bad was actually rock candy</li>
+        <li>Guns and Roses wouldn't let Glee use their music</li>
+        <li>In the flintstones: Pebbles was originally going to be a boy</li>
+        <li>Frinds was originally going to be called "Insomnia Cafe" or "Six of One"</li>
+        <li>In "Spider-Man" staring Tobey Maguire, one scene took 156 takes</li>
+        <li> Buzz Lightyear was almost called Lunar Larry</li>
+    </ul>
+    <div id="movie-info"></div>
+    <footer>
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>©2023 Rebecca Bowe</p>
+    </footer>
+</body>
+</html>
